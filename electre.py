@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 def normalizar(matrizV, pesos, tipo):
   '''
-  Método auxiliar. Normaliza usando la distancia relativa.
+  Método auxiliar. Normaliza usando la proporción del rango.
   '''
   matrizT = list(map(list, zip(*matrizV)))
   matrizNorm = matrizV
